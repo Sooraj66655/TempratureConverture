@@ -1,0 +1,84 @@
+body{
+	background-color: #4A4949;
+}
+header{
+	margin-top: 5%;
+	width: 50%;
+	padding-right: 4px;
+	text-align: center;
+	height: auto;
+	background-color: #990000;
+	margin-right: 25%;
+	margin-left: 25%;
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-radius: 25px 25px 0px 0px;
+}
+
+section{
+	background-color: #4A4949;
+	padding: 2%;
+	padding-bottom: 4% !important;
+	border: 2px solid #990000;
+	width: 46%;
+	margin-right: 25%;
+	margin-left: 25%;
+	border-radius: 0px 0px 25Px 25px;
+}
+.btn{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10%;
+	height: 7vh;
+	background-color: #990000;
+	color: white;
+	font-size: 20px; 
+	font-weight: bold;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+}
+.display{
+	width: 98%;height: 6vh; margin-bottom: 5vh;
+	background: transparent;
+	border: none;
+	background-color: #A4AF5C !important;
+	height: 60px;
+	box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+	font-size: 30px;
+	font-weight: bold;
+	font;
+	text-shadow: 1px 1px #B70928;
+	text-align: right;
+}
+.input{
+	border-radius: 15px;
+	box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+	width: 40%;height: 45px; margin-right: 17%;
+	outline: none;
+	font-size: 20px;
+}
+.select{
+	width: 40%;height: 50px;
+	outline: none;
+	box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+	font-size: 20px;
+	border-radius: 15px;
+}
+h3{
+	color: white;
+}
+
+
+
+/***********************************************Media Query For Responsive*************************************/
+@media (max-width: 600px){
+	.input{
+		width: 95%;
+		margin-bottom: 2%;
+	}
+	.select{
+		width: 98%;
+	}
+}

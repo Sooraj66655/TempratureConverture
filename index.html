@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>
+            Temprature Convertor Task-12
+        </title>
+    </head>
+    <body>
+        <header>
+            <p id="demo"></p>
+            <h1><i class='fas fa-temperature-low'></i>
+                Temprature Conversion
+                <i class="fas fa-temperature-high">
+                </i>
+            </h1>
+        </header>
+        <section>
+            <form>
+                <h3>
+                    OutPut (
+                    <small>&#8451; / &#8457;</small>
+                    ) &#128071;
+                </h3>
+                <input class="display" type="text" name="" disabled="disabled" id="display">
+                <input class="input" type="text" name="number" id="number" placeholder="Enter Temprature...">
+                <!--   <select class="select" id="selectunit" onchange="ConvertData();" > -->
+                <select class="select" id="selectunit">
+                    <option selected="selected" disabled="disabled">-Select-</option>
+                    <option value="Farenheit">Farenheit</option>
+                    <option value="Celcius">Celcius</option>
+                </select>
+                <button class="btn" type="button" onclick="ConvertData();">Convert &nbsp; <i class="fas fa-exchange">
+                    </i></button>
+            </form>
+        </section>
+    </body>
+    <script type="text/javascript" src="main.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+</html>
